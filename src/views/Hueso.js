@@ -28,7 +28,7 @@ const Hueso = () => {
             />
             
             <a-entity
-            light="type:ambient;  position:0 24 0; intensity:0.6;"
+            light="type:ambient;  position:0 144 0; intensity:0.4;"
             >
 
             </a-entity>
