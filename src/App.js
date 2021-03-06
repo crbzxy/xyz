@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
       <Switch>
-      <Route path="/xyz" exact>
+      <Route path="/" exact>
               <Hueso/>
             </Route>
       </Switch>
