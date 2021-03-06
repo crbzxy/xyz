@@ -20,12 +20,11 @@ const Hueso = () => {
             </a-assets>
 
             <a-entity
-              environment="active: true; skyType: gradient; skyColor: #89c2ff; horizonColor: #9ec3ea; lightPosition: 1 4 1s; fog: 0.7; flatShading: true; ground: canyon; groundYScale: 3.2699999999999994; groundTexture: checkerboard; groundColor: #fcfcfc; groundColor2: #afa6bb; dressing: stones; dressingAmount: 100; dressingColor: #444343; dressingScale: 5.2; dressingVariance: [object Object];  dressingOnPlayArea: 0.06; shadowSize: 10.52; preset: starry"
-              animation__cielo="property:environment.skyColor; to: #0562c5; dur: 8000; easing: linear; loop: true; dir: alternate"
-              
+              environment="active: true; skyType: gradient; skyColor: #89c2ff; horizonColor: #9ec3ea; lightPosition: 1 4 1s; fog: 0.7; flatShading: true; ground: canyon; groundYScale: 3.2699999999999994; groundTexture: checkerboard; groundColor: #fcfcfc; groundColor2: #adadad; dressing: stones; dressingAmount: 100; dressingColor: #5a5a5a; dressingScale: 3.2; dressingVariance: [object Object];  dressingOnPlayArea: 0.07; shadowSize: 10.52; preset: starry"
+            
             />
             
-
+            <a-entity light=""></a-entity>
             <a-entity
               gltf-model={ShitHappens}
               scale="3 3 3"
